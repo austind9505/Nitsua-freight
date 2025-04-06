@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitsua Freight | Road Freight Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nitsua Freight</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#coverage">Coverage</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Reliable Road Freight Across South Africa</h2>
+            <p>Your trusted partner in logistics, distribution, and delivery.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Nitsua Freight is a South African-based road freight company committed to delivering your cargo safely and on time. We serve clients across a wide range of industries with customized logistics solutions.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Full Truck Load (FTL) and Less than Truck Load (LTL)</li>
+                <li>Local and Long-Distance Freight</li>
+                <li>Distribution & Warehousing</li>
+                <li>Same-day and Next-day Delivery Options</li>
+                <li>Fleet Management & Tracking</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="coverage">
+        <div class="container">
+            <h2>Our Coverage</h2>
+            <p>We operate nationwide, covering all major cities and industrial zones in South Africa — including Johannesburg, Cape Town, Durban, Port Elizabeth, and beyond.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to move freight? Get in touch with us today.</p>
+            <form action="mailto:info@nitsuafreight.co.za" method="POST" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nitsua Freight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('freight-truck.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #333;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+}
